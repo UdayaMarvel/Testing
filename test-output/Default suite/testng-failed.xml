@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.flipkart.NewOffers">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="close"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="method"/>
+          <include name="method1"/>
+          <include name="select_the_date_in_calendar" invocation-numbers="0"/>
+          <include name="launch_the_redBus"/>
+        </methods>
+      </class> <!-- com.flipkart.NewOffers -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

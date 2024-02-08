@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test1(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.flipkart.NewOffers">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="close"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="method"/>
+          <include name="method1"/>
+          <include name="select_the_date_in_calendar" invocation-numbers="0"/>
+          <include name="launch_the_redBus"/>
+        </methods>
+      </class> <!-- com.flipkart.NewOffers -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

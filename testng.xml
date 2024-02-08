@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1" parallel = "classes" thread-count ="2">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="com.flipkart.NewOffers"/>
+      <class name="com.flipkart.TopOffers"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
